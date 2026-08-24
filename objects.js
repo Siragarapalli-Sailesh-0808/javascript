@@ -93,3 +93,8 @@ for(let key of Object.entries(circleEnum)){
 if ('color' in circleEnum){
     console.log('color is present');
 }
+
+// coloneing of obj
+const colne = { ...circle }
+console.log(colne);
+console.log(colne ,"This is cloned from other object");
