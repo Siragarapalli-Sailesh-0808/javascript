@@ -40,10 +40,20 @@ const items = filtered.map(num => 'a' + num);
 console.log(items);
 
 const obj = filtered.map(n => {
-    const obj = { value: n};
+    const obj = { value: n };
     return obj;
 });
 
 console.log(obj);
+
+
+// reduce method
+
+const sum = numbers.reduce((accumulator,currentValue) => accumulator + currentValue);
+console.log(sum);
+
+
+
+
 
 
