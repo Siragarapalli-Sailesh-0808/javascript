@@ -18,8 +18,6 @@ console.log(numbers.indexOf(1));
 console.log(numbers.lastIndexOf(1));
 console.log(numbers.includes(6));
 
-
-
 const courses = [
     {id : 1 , name : 'a'},
     {id : 2 , name : 'b'}
@@ -41,6 +39,19 @@ const subjects = [
 const subject = subjects.find(subject => subject.name === 'css');
 
 console.log(subject['name']);
+
+const test = [{id : 1}];
+const test2 = [4,5,6];
+for (let number of test2)
+console.log(test2);
+
+test.push({id : 2});
+test.unshift({id : 0});
+const combined = [...test,...test2];
+
+console.log(combined);
+
+
 
 
 

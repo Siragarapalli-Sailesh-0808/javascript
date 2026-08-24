@@ -98,3 +98,4 @@ if ('color' in circleEnum){
 const colne = { ...circle }
 console.log(colne);
 console.log(colne ,"This is cloned from other object");
+

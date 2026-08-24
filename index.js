@@ -16,3 +16,18 @@ console.log(interestRatesample);
 let name1 = 'sailesh';
 let age = 22;
 let isApproved = false;
+
+
+let selectedColours = ['red', 'green', 'blue'];
+selectedColours[3] = 1;
+console.log(selectedColours);
+console.log(selectedColours.length);
+
+
+const numbers = [3,4];
+numbers.unshift(1,2);
+numbers.push(5,6,1);
+console.log(numbers);
+console.log(numbers.indexOf(1));
+console.log(numbers.lastIndexOf(1));
+console.log(numbers.includes(6));
