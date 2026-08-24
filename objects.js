@@ -43,9 +43,9 @@ function Circle(radius) {
     console.log('draw');
     }
 }
-
 const Circle1 = new Circle(1);
 console.log(circle1);
+
 
 
 // Dynamic Nature of Objects
@@ -59,3 +59,13 @@ circleDynamic.draw = function() {}
 delete circleDynamic.radius;
 
 console.log(circleDynamic);
+
+
+let number = {value : 11};
+
+function increase(number) {
+    number.value++;
+}
+
+increase(number);
+console.log(number);
