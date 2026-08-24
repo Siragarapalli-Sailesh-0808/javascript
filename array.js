@@ -1,5 +1,10 @@
-let selectedColours = ['red', 'green', 'blue'];
-selectedColours[3] = 1;
-console.log(selectedColours);
-console.log(selectedColours.length);
+const courses = [
+    {id : 1 , name : 'a'},
+    {id : 2 , name : 'b'}
+];
+
+const course = courses.find(function(course) {
+    return course.name === 'b';
+});
+console.log(course);
 
