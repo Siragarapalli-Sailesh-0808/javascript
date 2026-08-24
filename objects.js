@@ -69,3 +69,27 @@ function increase(number) {
 
 increase(number);
 console.log(number);
+
+//enummerating prop of objects
+const circleEnum = {
+    radius : 1,
+    color : 'red'
+};
+
+//for-in loop
+for(let key in circleEnum){
+    console.log(key, circleEnum[key]);
+}
+
+//for-of loop
+for(let key of Object.keys(circleEnum)){
+    console.log(key, circleEnum[key]);
+}
+
+for(let key of Object.entries(circleEnum)){
+    console.log(key, circleEnum[key]);
+}
+
+if ('color' in circleEnum){
+    console.log('color is present');
+}
