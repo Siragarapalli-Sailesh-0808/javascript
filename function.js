@@ -16,6 +16,15 @@ function sum(){
 }
 
 console.log(sum(1,10,4,10,5));
+
+// Rest operator
+
+function cart (discount,...prices) {
+  const total = prices.reduce((a,b) => {return a + b});
+  return total * (discount);
+}
+
+console.log(cart(0.1,20,30,40));
   
 
 
