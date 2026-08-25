@@ -69,6 +69,21 @@ const video = {
 video.showTags();
 
 
+// change this 
+
+function playVedio(a,b) {
+    console.log(this);
+}
+
+playVedio.call({name: "Vijay",age : 18},1,2)
+playVedio.apply({name:"Vijay",age:22})
+
+
+
+
+
+
+
 
 
 
