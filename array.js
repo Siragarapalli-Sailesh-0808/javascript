@@ -42,8 +42,6 @@ console.log(subject['name']);
 
 const test = [{id : 1}];
 const test2 = [4,5,6];
-for (let number of test2)
-console.log(test2);
 
 test.push({id : 2});
 test.unshift({id : 0});

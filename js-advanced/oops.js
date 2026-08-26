@@ -92,3 +92,4 @@ person.fullName = 'John Smith';
 console.log(person.fullName);
 console.log(person.firstName);
 
+

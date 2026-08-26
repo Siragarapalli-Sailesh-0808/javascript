@@ -83,6 +83,28 @@ const result = numbers
   .filter(n => n % 2 !== 0);
 console.log(result);
 
+function createCounter() {
+  let count = 0;
+  return {
+    increment() {
+      count++;
+    },
+    getValue() {
+      return count;
+    }
+  };
+}
+
+const counter1 = createCounter();
+const counter2 = createCounter();
+counter1.increment();
+counter1.increment();
+counter2.increment();
+
+console.log(counter1.getValue(), counter2.getValue());
+
+
+
 
 
 
