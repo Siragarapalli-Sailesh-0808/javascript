@@ -78,6 +78,11 @@ function playVedio(a,b) {
 playVedio.call({name: "Vijay",age : 18},1,2)
 playVedio.apply({name:"Vijay",age:22})
 
+const numbers = [1, 2, 3, 4, 5];
+const result = numbers
+  .filter(n => n % 2 !== 0);
+console.log(result);
+
 
 
 
